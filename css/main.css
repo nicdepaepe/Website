@@ -1,0 +1,360 @@
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+
+h1 { 
+
+font-family: 'Sawarabi Mincho', serif;
+font-size: 25px;
+text-decoration: none;
+}
+
+a {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 15px;
+text-decoration: none;
+}
+
+a: link { color: #000; }
+a: visited { color: #000; }
+a: hover { color: grey; }
+a: active { color: grey; }
+
+p {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 18px;
+text-decoration: none;
+padding-left: 18px;
+padding-right: 28px;
+}
+
+/* HEADER */
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+border-bottom: 0px #000 solid;
+height:100px;
+padding-left: 18px;
+padding-right: 12px;
+
+
+}
+
+.top-left {
+	
+
+}
+
+.top-right {
+display: flex;
+justify-content: space-between;
+font-size: 11px;
+padding-right: 20px;
+
+}
+
+/* MAIN */
+
+.wrapper {
+max-width: 950px;
+margin: 0 auto;
+
+}
+
+.mainbox {
+		display:flex;
+		justify-content: space-around;
+		flex-flow: row wrap;
+		align-content: center;
+
+}
+
+.box1 {
+width:450px;
+height: 450px;
+background-color: #ECF5F6;
+background-image: url("../img/1.jpg");
+background-repeat: no-repeat;
+background-size: 600px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+margin-bottom: 1rem;
+
+}
+.box1 p {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 15px;
+text-decoration: none;
+color: #000;
+letter-spacing: .02em;
+line-height: 1.2em;
+background-color: #fff;
+padding: 5px;
+}
+
+.box2 {
+width:450px;
+height: 450px;
+background-color: #ECF5F6;
+background-image: url("../img/2.jpg");
+background-repeat: no-repeat;
+background-size: 600px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+margin-bottom: 1rem;
+
+}
+.box2 p {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 15px;
+text-decoration: none;
+color: #000;
+letter-spacing: .02em;
+line-height: 1.2em;
+background-color: #fff;
+padding: 5px;
+}
+
+.box3 {
+width:275px;
+height: 450px;
+background-color: #ECF5F6;	
+background-image: url("../img/3.jpg");
+background-repeat: no-repeat;
+background-size: 280px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+
+}
+.box3 p {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 15px;
+text-decoration: none;
+color: #000;
+letter-spacing: .02em;
+line-height: 1.2em;
+background-color: #fff;
+padding: 5px;
+}
+
+.box4 {
+width:275px;
+height: 450px;
+background-color: #ECF5F6;	
+background-image: url("../img/4.jpg");
+background-repeat: no-repeat;
+background-size: 380px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+
+}
+.box4 p {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 15px;
+text-decoration: none;
+color: #000;
+letter-spacing: .02em;
+line-height: 1.2em;
+background-color: #fff;
+padding: 5px;
+}
+
+.box5 {
+width:275px;
+height: 450px;
+background-color: #ECF5F6;	
+background-image: url("../img/5.jpg");
+background-repeat: no-repeat;
+background-size: 290px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+
+}
+.box5 p {
+font-family: 'Sawarabi Mincho', serif;
+font-size: 15px;
+text-decoration: none;
+color: #000;
+letter-spacing: .02em;
+line-height: 1.2em;
+background-color: #fff;
+padding: 5px;
+}
+
+/* PAGINA WORK */
+
+.box6 {
+width:275px;
+height: 450px;	
+background-image: url("../img/1.jpg");
+background-size: 280px;
+background-position: center;
+align-items: center;
+margin: 1rem;
+}
+
+.box7 {
+width:275px;
+height: 450px;
+background-image: url("../img/2.jpg");
+background-size: 280px;
+background-position: center;
+align-items: center;
+margin: 1rem;
+}
+
+.box8 {
+width:275px;
+height: 450px;
+background-image: url("../img/3.jpg");
+background-size: 280px;
+background-position: center;
+align-items: center;
+margin: 1rem;
+}
+
+.box9 {
+width:275px;
+height: 450px;
+background-image: url("../img/4.jpg");
+background-size: 280px;
+background-position: center;
+align-items: center;
+margin: 1.2rem;
+}
+
+.box10 {
+width:275px;
+height: 450px;	
+background-image: url("../img/5.jpg");
+background-size: 280px;
+background-position: center;
+align-items: center;
+margin: 1.2rem;
+}
+
+.box11 {
+width:275px;
+height: 450px;
+background-image: url("../img/6.jpg");
+background-size: 280px;
+background-position: center;
+align-items: center;
+margin: 1.2rem;
+}
+
+/* FOOTER */
+
+.footer {
+	margin-top: 50px;
+	display: flex;
+	height: 150px;
+	background-color: #f7f7f7;
+	justify-content: space-between;
+	
+}
+
+.footer-left {
+width: 63%;
+font-family: ;'Sawarabi Mincho', serif;
+font-size: 12px;
+text-decoration: none;
+color: #000;
+padding: 1px;
+text-align: left;
+padding-top: 20px;
+position: fixed;
+bottom: 0;
+line-height: .2em;
+}
+
+.footer-right {
+width: 63%;
+font-family: ;'Sawarabi Mincho', serif;
+font-size: 12px;
+text-decoration: none;
+color: #000;
+padding: 1px;
+text-align: right; 
+position: fixed;
+bottom: 0;
+right: 12px;
+line-height: .2em;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+.header {
+	height: 90px;
+	display: flex;
+	border-bottom: 1px #000 solid;
+
+}
+
+.header .top-right {
+	display:flex;
+	flex-direction: column;
+
+
+}
+}
+
+/* CONTACT FORM */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 72px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+}
+
+
+/* END */
